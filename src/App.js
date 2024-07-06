@@ -22,6 +22,7 @@ function Counter() {
   }
   return (
     <div>
+      <h1>Date-Counter-App</h1>
       <div>
         <button onClick={() => setStep((e) => e - 1)}>-</button>
         <span>Step:{Math.abs(step)}</span>
